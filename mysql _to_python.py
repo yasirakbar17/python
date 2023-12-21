@@ -3,9 +3,9 @@ import pandas as pd
 
 database_config = {
     'host': 'localhost',
-    'user': 'root',
-    'password': 'a1d2g3j4m5',
-    'database': 'belajar_sql'
+    'user': 'nama_user',
+    'password': 'password',
+    'database': 'nama_database'
 }
 
 koneksi = mysql.connector.connect(**database_config) #membuat koneksi
